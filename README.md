@@ -1,4 +1,4 @@
-👋 Hi, I'm Arun Stephen (@arun-techarch), a seasoned IT professional with over 17 years of experience. I've managed and contributed to 200+ projects, including freelance engagements. With a passion for exploring emerging technologies, I've also guest lectured at Ethiraj Women's College. I'm eager to collaborate with tech enthusiasts to identify and implement innovative solutions that enhance productivity and deliver value. My areas of expertise include design, management strategies, and team oversight.
+👋 Hi, I'm Arun Stephen (@arun-techarch), a seasoned IT professional with over 17 years of experience. I've managed and contributed to 200+ projects, including freelance engagements. With a passion for exploring emerging technologies, I've also worked as guest lectured at Ethiraj Women's College, Chennai. I'm eager to collaborate with tech enthusiasts to identify and implement innovative solutions that enhance productivity and deliver value. My areas of expertise include design, management strategies, and team oversight.
 
 👀  I’m interested in passion for exploring diverse technologies, I aim to empower others by sharing accessible explanations of core concepts. This knowledge will enhance their technical proficiency and productivity.
 
@@ -10,4 +10,4 @@
 
 😄 Pronouns: He/him    
 
-⚡ Fun fact: In addition to my professional role as an IT professional, I am passionate about photography and contributing to my local community as a Google Maps Local Guide.
+⚡ Fun fact: In addition to my professional role as an IT professional, I am passionate about photography and contributing to my local community as a Google Maps Local Guide. Also intrested in travelling to visit new places :)
