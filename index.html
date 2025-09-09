@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun Stephen - Technology Architect</title>
+    <meta name="description" content="Enterprise Application and Solution Architect with 18+ years of experience in designing and delivering innovative, scalable enterprise solutions.">
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Arun Stephen - Technology Architect">
+    <meta property="og:description" content="Enterprise Application and Solution Architect with 18+ years of experience in designing and delivering innovative, scalable enterprise solutions.">
+    <meta property="og:type" content="website">
+    
+    <link rel="stylesheet" href="./asserts/style/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Arun Stephen</div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link" data-testid="nav-home">Home</a>
+                <a href="#about" class="nav-link" data-testid="nav-about">About</a>
+                <a href="#skills" class="nav-link" data-testid="nav-skills">Skills</a>
+                <a href="#experience" class="nav-link" data-testid="nav-experience">Experience</a>
+                <a href="#solutions" class="nav-link" data-testid="nav-solutions">Solutions</a>
+                <a href="#contact" class="nav-link" data-testid="nav-contact">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" data-testid="hero-section">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 data-testid="hero-title">Technology <span class="primary-text">Architect</span></h1>
+                    <h2 data-testid="hero-subtitle">Enterprise Solutions & Innovation Leader</h2>
+                    <p data-testid="hero-description">
+                       With over 18 years of experience, I specialize in architecting and delivering enterprise-grade, multi-tier web and client-server applications across Retail and Networking domains. Recognized as a trusted Enterprise Solution and Innovation Leader, I bring expertise in full-stack development, cloud-native deployment, and scalable digital platforms. I excel in transforming complex business challenges into modern, secure, and resilient enterprise solutions, driving innovation through cutting-edge technologies, architectural best practices, and future-ready strategies that enable organizational growth and operational excellence.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" onclick="scrollToSection('solutions')" data-testid="button-view-solutions">
+                            View Solutions
+                        </button>
+                        <button class="btn btn-outline" onclick="scrollToSection('contact')" data-testid="button-get-in-touch">
+                            Get in Touch
+                        </button>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat" data-testid="stat-experience">
+                            <div class="stat-number">18+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat" data-testid="stat-projects">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Projects Delivered</div>
+                        </div>
+                        <div class="stat" data-testid="stat-certifications">
+                            <div class="stat-number">15+</div>
+                            <div class="stat-label">Certification Courses</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="./asserts/images/home.jpg" 
+                         alt="Technology Architecture and Cloud Computing" data-testid="hero-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about" data-testid="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-testid="about-title">About Me</h2>
+                <p data-testid="about-subtitle">
+                    Enterprise Application and Solution Architect with extensive experience in designing 
+                    and delivering innovative, scalable enterprise solutions.
+                </p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3 data-testid="about-availability-title">Available for Enterprise Architecture Projects</h3>
+                    <p data-testid="about-description">
+                        I am Arun Stephen, a seasoned Technology Architect specializing in SOA and microservices architecture. With strong expertise in OOAD principles, OOP, SOLID design principles, design patterns, algorithms, and data structures, I bring a structured yet innovative approach to solution design. I have successfully led end-to-end architecture and development initiatives, ensuring solutions are scalable, high-performing, and maintainable. My passion lies in transforming complex business requirements into robust, future-ready technology solutions.
+                    </p>
+                    
+                    <div class="about-details">
+                        <div class="detail-column">
+                            <div class="detail-item" data-testid="detail-name">
+                                <span class="detail-label">Name:</span>
+                                <span class="detail-value">Arun Stephen</span>
+                            </div>
+                            <div class="detail-item" data-testid="detail-email">
+                                <span class="detail-label">Email:</span>
+                                <span class="detail-value">arunstephen.techarch@gmail.com</span>
+                            </div>
+                            <div class="detail-item" data-testid="detail-location">
+                                <span class="detail-label">Location:</span>
+                                <span class="detail-value">Chennai, India</span>
+                            </div>
+                            <div class="detail-item" data-testid="detail-experience">
+                                <span class="detail-label">Experience:</span>
+                                <span class="detail-value">18+ Years</span>
+                            </div>
+                        </div>
+                        <div class="detail-column">
+                            <div class="detail-item" data-testid="detail-phone">
+                                <span class="detail-label">Phone:</span>
+                                <span class="detail-value">+91-96000 76106</span>
+                            </div>
+                            <div class="detail-item" data-testid="detail-role">
+                                <span class="detail-label">Current Role:</span>
+                                <span class="detail-value">Technology Architect</span>
+                            </div>
+                            <div class="detail-item" data-testid="detail-specialization">
+                                <span class="detail-label">Specialization:</span>
+                                <span class="detail-value">Enterprise Solutions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="./asserts/images/about.jpg" 
+                         alt="Professional technology consultant workspace" data-testid="about-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills" data-testid="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-testid="skills-title">My Skills</h2>
+                <p data-testid="skills-subtitle">
+                    Technical expertise across full-stack development, cloud platforms, and enterprise technologies
+                </p>
+            </div>
+            
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 data-testid="skills-category-core-technologies">Core Technologies</h3>
+                    <div class="skill-item" data-testid="skill-java-spring-framework">
+                        <div class="skill-header">
+                            <span>Java Technologies</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-testid="skill-typescript-nodejs">
+                        <div class="skill-header">
+                            <span>UI Technologies</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-testid="skill-angular-react">
+                        <div class="skill-header">
+                            <span>NodeJS & ExpressJS</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-testid="skill-python-automation">
+                        <div class="skill-header">
+                            <span>Python & Automation</span>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-testid="skill-database-design-sql-nosql">
+                        <div class="skill-header">
+                            <span>Database Design (RDBMS/NoSQL)</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3 data-testid="skills-category-cloud-devops">Design, Cloud & DevOps</h3>
+                    <div class="skill-item" data-testid="skill-aws-cloud-services">
+                        <div class="skill-header">
+                            <span>Architect Design and Solution</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-testid="skill-microservices-architecture">
+                        <div class="skill-header">
+                            <span>Microservices Architecture</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-testid="skill-system-integration">
+                        <div class="skill-header">
+                            <span>System Integration</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-testid="skill-docker-kubernetes">
+                        <div class="skill-header">
+                            <span>Cloud Tools</span>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="60"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item" data-testid="skill-ci-cd-pipelines">
+                        <div class="skill-header">
+                            <span>Docker and CI/CD Pipelines</span>
+                            <span class="skill-percentage">65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="65"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <!-- Certifications -->
+            <div class="certifications">
+                <h3 data-testid="certifications-title">Certification & Courses</h3>
+                <div class="cert-grid">
+                    <div class="cert-item" data-testid="certification-oracle-database-sql">
+                        <i class="fas fa-database"></i>
+                        <h4>Oracle Database SQL</h4>
+                        <p>Certified Expert</p>
+                    </div>
+                    <div class="cert-item" data-testid="certification-aws-certified">
+                        <i class="fas fa-cloud"></i>
+                        <h4>AWS Certified</h4>
+                        <p>Developer</p>
+                    </div>
+                    <div class="cert-item" data-testid="certification-spring-boot-certified">
+                        <i class="fas fa-earth"></i>
+                        <h4>Spring Boot</h4>
+                        <p>Developer</p>
+                    </div>
+                    <div class="cert-item" data-testid="certification-nodejs-certified">
+                        <i class="fas fa-dolly-box"></i>
+                        <h4>NodeJS</h4>
+                        <p>Developer</p>
+                    </div>
+                    <div class="cert-item" data-testid="certification-python-program">
+                        <i class="fas fa-briefcase"></i>
+                        <h4>Python Program</h4>
+                        <p>Certification</p>
+                    </div>
+                     <div class="cert-item" data-testid="certification-docker-certified">
+                        <i class="fas fa-cogs"></i>
+                        <h4>Docker Certified</h4>
+                        <p>Associate</p>
+                    </div>
+                    <div class="cert-item" data-testid="certification-python-program">
+                        <i class="fas fa-comment"></i>
+                        <h4>Generative AI</h4>
+                        <p>Certification</p>
+                    </div>
+                   
+                    <div class="cert-item" data-testid="certification-python-program">
+                        <i class="fa fa-code"></i>
+                        <h4>Github Copilot</h4>
+                        <p>Course</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience" data-testid="experience-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-testid="experience-title">Professional Experience</h2>
+                <p data-testid="experience-subtitle">
+                    Journey through leading technology companies and innovative projects
+                </p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-testid="experience-item-0">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 data-testid="experience-title-0">Technology Architect</h3>
+                            <p class="company" data-testid="experience-company-0">Wipro Technologies</p>
+                            <p class="client" data-testid="experience-client-0">Client: Cisco</p>
+                            <span class="duration" data-testid="experience-duration-0">Dec 2022 – Present</span>
+                        </div>
+                        <p data-testid="experience-description-0">
+                            Successfully led cross-functional teams as both Product Owner and Scrum Master, driving Agile delivery, backlog prioritization, and technical oversight to build enterprise-grade applications. I architected and delivered secure, scalable, and cost-optimized enterprise solutions by integrating CI/CD pipelines, cloud containers, modern engineering practices, and advanced security controls (RBAC, MFA, SSO). My contributions include designing reusable services, modernizing technology stacks (TypeScript, modular architectures, async capabilities), and enabling seamless data integration (PostgreSQL to Snowflake, API gateways, observability solutions). Recognized by senior leadership for innovative designs, I also managed teams of 12, mentored developers, and conducted workshops on Gen-AI tools and secure coding to improve productivity and resilience. Through architecture governance, technical enablement, and strategic guidance, I ensured compliance, operational readiness, and consistent client satisfaction.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag" data-testid="experience-tech-0-0">Angular</span>
+                            <span class="tech-tag" data-testid="experience-tech-0-1">TypeScript</span>
+                            <span class="tech-tag" data-testid="experience-tech-0-2">NodeJS</span>
+                            <span class="tech-tag" data-testid="experience-tech-0-3">ExpressJS</span>
+                            <span class="tech-tag" data-testid="experience-tech-0-4">Python</span>
+                            <span class="tech-tag" data-testid="experience-tech-0-5">PostgreSQL</span>
+                            <span class="tech-tag" data-testid="experience-tech-0-6">Snowflake</span>
+                            <span class="tech-tag" data-testid="experience-tech-0-7">AWS S3</span>
+                            <span class="tech-tag" data-testid="experience-tech-0-8">Splunk</span>
+                            <span class="tech-tag" data-testid="experience-tech-0-9">Docker</span>
+                            <span class="tech-tag" data-testid="experience-tech-0-10">Openshift</span>
+                            <span class="tech-tag" data-testid="experience-tech-0-11">Automation</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-testid="experience-item-1">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 data-testid="experience-title-1">Technical Architect</h3>
+                            <p class="company" data-testid="experience-company-1">HCL Technologies</p>
+                            <p class="client" data-testid="experience-client-1">Client: Atlassian, Cisco</p>
+                            <span class="duration" data-testid="experience-duration-1">Sep 2016 – Dec 2022</span>
+                        </div>
+                        <p data-testid="experience-description-1">
+                            Proven technology leader with expertise in diagnosing complex system challenges and delivering scalable, maintainable, and enterprise-compliant solutions. Demonstrated success in driving cloud and infrastructure transformation, including VM-to-container migration, database provisioning, and secure data transfer. Skilled in full system lifecycle ownership—from requirements and design through development, automation, release, and production support—ensuring operational excellence. Recognized for innovation and thought leadership through technical training, knowledge sharing, and enterprise-wide architecture initiatives.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag" data-testid="experience-tech-1-0">Angular</span>
+                            <span class="tech-tag" data-testid="experience-tech-1-1">Java Technologies</span>
+                            <span class="tech-tag" data-testid="experience-tech-1-2">Cloud Migration</span>
+                            <span class="tech-tag" data-testid="experience-tech-1-3">NodeJS</span>
+                            <span class="tech-tag" data-testid="experience-tech-1-4">Oracle</span>
+                            <span class="tech-tag" data-testid="experience-tech-1-5">MongoDB</span>
+                            <span class="tech-tag" data-testid="experience-tech-1-6">Docker</span>
+                            <span class="tech-tag" data-testid="experience-tech-1-7">Openshift</span>
+                            <span class="tech-tag" data-testid="experience-tech-1-8">Automation</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-testid="experience-item-2">
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 data-testid="experience-title-2">Associate Consultant</h3>
+                            <p class="company" data-testid="experience-company-2">Tata Consultancy Services</p>
+                            <p class="client" data-testid="experience-client-2">Client: A.C Nielsen</p>
+                            <span class="duration" data-testid="experience-duration-2">Apr 2010 – Jul 2016</span>
+                        </div>
+                        <p data-testid="experience-description-2">
+                            Directed the UI team and delivered 20+ reusable, scalable components that significantly improved productivity and reduced development overhead. Led R&D and feasibility initiatives to design advanced, configurable screen layouts integrating APIs, hierarchical data, and multimedia support, enhancing flexibility and user experience. Provided architectural oversight across UI, backend, and database layers, aligning solutions with enterprise standards and resolving critical technical challenges. Championed quality through testing, code reviews, and best practices while enabling team growth via training and delivering enterprise-grade reporting solutions.
+                        </p>
+                        <div class="tech-tags">
+                            <span class="tech-tag" data-testid="experience-tech-2-0">Adobe Flex</span>
+                            <span class="tech-tag" data-testid="experience-tech-2-1">UI Components</span>
+                            <span class="tech-tag" data-testid="experience-tech-2-2">ExtJS</span>
+                            <span class="tech-tag" data-testid="experience-tech-2-3">Java Technologies</span>
+                            <span class="tech-tag" data-testid="experience-tech-2-4">Oracle</span>
+                            <span class="tech-tag" data-testid="experience-tech-2-5">Data Visualization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions" data-testid="solutions-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-testid="solutions-title">Design & Solutions</h2>
+                <p data-testid="solutions-subtitle">
+                    Innovative enterprise solutions and architectural transformations<br/>
+                    Click the <a href="./asserts/docs/Architect_Design_Solution.pdf" target="_blank">link</a> to explore architectural design challenges and solutions.
+                </p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card" data-testid="project-card-0" onclick="openModal(0)">
+                    <img src="./asserts/images/be_arch_small.jpg" 
+                         alt="Modernized Backend Architecture" data-testid="project-image-0">
+                    <div class="project-content">
+                        <h3 data-testid="project-title-0">Modernized Backend Architecture</h3>
+                        <p data-testid="project-description-0">
+                            Transformed backend to enterprise-grade standards with TypeScript, RBAC security, and scalable microservices architecture.
+                        </p>
+                        <div class="project-tech" data-testid="project-technologies-0">
+                            TypeScript • Security • Scalability
+                        </div>
+                        <button class="btn btn-primary" data-testid="button-view-details-0">View Details</button>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-testid="project-card-1" onclick="openModal(1)">
+                    <img src="./asserts/images/zero_trust_small.jpg" 
+                         alt="Zero Trust Security Implementation" data-testid="project-image-1">
+                    <div class="project-content">
+                        <h3 data-testid="project-title-1">Zero Trust Security Implementation</h3>
+                        <p data-testid="project-description-1">
+                            Implemented comprehensive security framework with centralized logging, database migration to Snowflake, and secure proxy services.
+                        </p>
+                        <div class="project-tech" data-testid="project-technologies-1">
+                            Security • Splunk • Snowflake
+                        </div>
+                        <button class="btn btn-primary" data-testid="button-view-details-1">View Details</button>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-testid="project-card-2" onclick="openModal(2)">
+                    <img src="./asserts/images/cloud_small.jpg" 
+                         alt="Enterprise Cloud Migration" data-testid="project-image-2">
+                    <div class="project-content">
+                        <h3 data-testid="project-title-2">Enterprise Cloud Migration</h3>
+                        <p data-testid="project-description-2">
+                            Successfully executed full migration from virtual machines to cloud containers with MongoDB provisioning and secure data transfer.
+                        </p>
+                        <div class="project-tech" data-testid="project-technologies-2">
+                            Cloud • Docker • MongoDB
+                        </div>
+                        <button class="btn btn-primary" data-testid="button-view-details-2">View Details</button>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-testid="project-card-3" onclick="openModal(3)">
+                    <img src="./asserts/images/chatbot_small.jpg" 
+                         alt="Intelligent Chatbot Integration" data-testid="project-image-3">
+                    <div class="project-content">
+                        <h3 data-testid="project-title-3">Intelligent Chatbot Integration</h3>
+                        <p data-testid="project-description-3">
+                            Designed and implemented enterprise chatbot solution with Python automation for streamlined data updates and user interactions.
+                        </p>
+                        <div class="project-tech" data-testid="project-technologies-3">
+                            Python • AI • Automation
+                        </div>
+                        <button class="btn btn-primary" data-testid="button-view-details-3">View Details</button>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-testid="project-card-4" onclick="openModal(4)">
+                    <img src="./asserts/images/ngcgi_small.jpg" 
+                         alt="NGCGI Integration & Automation" data-testid="project-image-4">
+                    <div class="project-content">
+                        <h3 data-testid="project-title-4">NGCGI Integration & Automation</h3>
+                        <p data-testid="project-description-4">
+                            Automated compensation assignment and goal mapping through secure API proxy integration with external enterprise systems.
+                        </p>
+                        <div class="project-tech" data-testid="project-technologies-4">
+                            API • Integration • Automation
+                        </div>
+                        <button class="btn btn-primary" data-testid="button-view-details-4">View Details</button>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-testid="project-card-5" onclick="openModal(5)">
+                    <img src="./asserts/images/performance_small.jpg" 
+                         alt="Performance Optimization & Monitoring" data-testid="project-image-5">
+                    <div class="project-content">
+                        <h3 data-testid="project-title-5">Performance Optimization & Monitoring</h3>
+                        <p data-testid="project-description-5">
+                            Implemented centralized cache optimization with Redis and comprehensive application usage monitoring dashboard.
+                        </p>
+                        <div class="project-tech" data-testid="project-technologies-5">
+                            Redis • Monitoring • Analytics
+                        </div>
+                        <button class="btn btn-primary" data-testid="button-view-details-5">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact" data-testid="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 data-testid="contact-title">Get In Touch</h2>
+                <p data-testid="contact-subtitle">
+                    Ready to discuss your next enterprise technology project?
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3 data-testid="contact-connect-title">Let's Connect</h3>
+                    <p data-testid="contact-description" class="contact-title">
+                        I'm available for consulting on enterprise architecture, cloud migration, 
+                        and technology transformation projects. Let's discuss how I can help 
+                        scale your business with innovative solutions.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item" data-testid="contact-address">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Address</h4>
+                                <p>S2, Second Floor, B-Block, Pranajeeta Apartment,<br>
+                                   Kumananchavadi, Poonamallee, Chennai - 600056</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item" data-testid="contact-phone">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+91-96000 76106</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item" data-testid="contact-email">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>arunstephen.techarch@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="contactForm" data-testid="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required data-testid="input-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required data-testid="input-email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required data-testid="input-subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required data-testid="textarea-message"></textarea>
+                        </div>
+                        <input type="hidden" name="_captcha" value="false"/>
+                        <button type="submit" class="btn btn-primary btn-full" data-testid="button-send-message">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" data-testid="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-name" data-testid="footer-name">Arun Stephen</p>
+                <p class="footer-title" data-testid="footer-title">Technology Architect & Enterprise Solutions Expert</p>
+                <p class="footer-copyright" data-testid="footer-copyright">
+                    © 2024 Arun Stephen. All rights reserved. | Transforming enterprises through innovative technology solutions.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Alert Modal -->
+  <div class="alert-overlay" id="customAlert">
+    <div class="alert-box">
+      <h3 id="alertTitle">Alert</h3>
+      <p id="alertMessage">Message goes here</p>
+      <button onclick="closeAlert()">OK</button>
+    </div>
+  </div>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal" data-testid="project-modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()" data-testid="button-close-modal">&times;</span>
+            <h2 id="modalTitle" data-testid="modal-title"></h2>
+            <img id="modalImage" src="" alt="" data-testid="modal-detail-image">
+            <div class="modal-body">
+                <h3 data-testid="modal-overview-title">Project Overview</h3>
+                <p id="modalOverview" data-testid="modal-overview" class="modal-overview"></p>
+                
+                <h3 data-testid="modal-achievements-title">Key Achievements</h3>
+                <ul id="modalAchievements" data-testid="modal-achievements"></ul>
+                
+                <h3 data-testid="modal-technologies-title">Technologies Used</h3>
+                <div id="modalTechnologies" data-testid="modal-technologies"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./asserts/js/script.js"></script>
+</body>
+</html>
